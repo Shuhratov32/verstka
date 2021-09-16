@@ -1,0 +1,403 @@
+.container {
+  position: relative;
+  max-width: 1440px;
+  height: 4463px;
+  background: #FFFFFF;
+  padding-top: 10px; }
+  .container .navbar {
+    width: 100%;
+    position: relative; }
+    .container .navbar .navbar-brand {
+      margin-left: 80px; }
+    .container .navbar .navbar-nav {
+      position: absolute;
+      right: 18px; }
+      .container .navbar .navbar-nav .nav-item .home-link {
+        color: #FA4A0C !important; }
+      .container .navbar .navbar-nav .nav-item .nav-link {
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #252B42; }
+  .container .section-1 {
+    width: 1440px;
+    height: 619px;
+    background-image: url("images/Rectangle 48.png"); }
+    .container .section-1 .section {
+      width: 100%;
+      height: 100%;
+      padding-top: 73px;
+      position: relative; }
+      .container .section-1 .section h6 {
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #F7F7F7; }
+      .container .section-1 .section .h1 {
+        width: 66%;
+        font-family: Poppins,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+        color: #FFFFFF;
+        margin: 0 auto;
+        text-align: center; }
+      .container .section-1 .section p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        color: #F7F7F7; }
+      .container .section-1 .section .row {
+        width: 504px;
+        margin: 0 auto; }
+        .container .section-1 .section .row .play-btn {
+          width: 236px;
+          height: 68px;
+          background: #FA4A0C;
+          box-shadow: 0 10px 30px rgba(183, 50, 39, 0.2);
+          border-radius: 30px;
+          padding: 16px 0;
+          font-family: Montserrat,sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 36px; }
+        .container .section-1 .section .row .app-btn {
+          width: 236px;
+          height: 68px;
+          border-radius: 30px;
+          padding: 16px 0;
+          border: 1px solid silver;
+          font-family: Montserrat,sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 36px; }
+  .container .rec-img {
+    position: absolute;
+    width: 548px;
+    height: 640px;
+    left: 446px;
+    top: 610px; }
+    .container .rec-img .left {
+      position: absolute;
+      width: 299px;
+      height: 586px;
+      z-index: 1000; }
+      .container .rec-img .left img {
+        margin-top: -160px;
+        margin-left: -120px;
+        filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21)); }
+    .container .rec-img .right {
+      background-image: url("images/Rectangle (1).png");
+      position: absolute;
+      width: 285px;
+      height: 531px;
+      left: 242px;
+      top: 60px; }
+  .container hr {
+    position: absolute;
+    width: 884px;
+    height: 0;
+    left: 278px;
+    top: 1378.91px;
+    background-color: #E4E4E4;
+    border: 2px solid #E4E4E4; }
+  .container h2 {
+    margin-top: 720px;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    color: #000000;
+    opacity: 0.8; }
+  .container .section-2 {
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0;
+    top: 1646px;
+    background: #FFFFFF; }
+    .container .section-2 .left-img {
+      position: absolute;
+      width: 302px;
+      height: 525px;
+      left: 245px;
+      top: 78px; }
+      .container .section-2 .left-img img {
+        margin-top: -120px;
+        margin-left: -100px; }
+    .container .section-2 .right-font {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      position: static;
+      width: 568px;
+      height: 280px;
+      left: 0;
+      top: 0;
+      margin-left: 800px;
+      padding-top: 240px; }
+      .container .section-2 .right-font h3 {
+        position: static;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FA4A0C; }
+      .container .section-2 .right-font h2 {
+        position: static;
+        left: 0;
+        right: 0;
+        top: 7.46%;
+        bottom: 7.46%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        margin-top: 0 !important;
+        opacity: 1 !important; }
+      .container .section-2 .right-font h4 {
+        position: static;
+        left: 0;
+        right: 0;
+        top: 10.42%;
+        bottom: 10.42%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #737373; }
+  .container .section-3 {
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0;
+    top: 2302px;
+    background: #FFFFFF; }
+    .container .section-3 .left-img {
+      position: absolute;
+      width: 302px;
+      height: 525px;
+      left: 969px;
+      top: 78px; }
+      .container .section-3 .left-img img {
+        margin-top: -120px;
+        margin-left: -100px; }
+    .container .section-3 .right-font {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      position: static;
+      width: 568px;
+      height: 280px;
+      left: 0;
+      top: 0;
+      margin-left: 240px;
+      padding-top: 240px; }
+      .container .section-3 .right-font h3 {
+        position: static;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FA4A0C; }
+      .container .section-3 .right-font h2 {
+        position: static;
+        left: 0;
+        right: 0;
+        top: 7.46%;
+        bottom: 7.46%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        margin-top: 0 !important;
+        opacity: 1 !important; }
+      .container .section-3 .right-font h4 {
+        position: static;
+        left: 0;
+        right: 0;
+        top: 10.42%;
+        bottom: 10.42%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #737373; }
+  .container .section-4 {
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0;
+    top: 2960px;
+    background: #FFFFFF; }
+    .container .section-4 .left-img {
+      position: absolute;
+      width: 302px;
+      height: 525px;
+      left: 245px;
+      top: 78px; }
+      .container .section-4 .left-img img {
+        margin-top: -120px;
+        margin-left: -100px; }
+    .container .section-4 .right-font {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      position: static;
+      width: 568px;
+      height: 280px;
+      left: 0;
+      top: 0;
+      margin-left: 800px;
+      padding-top: 240px; }
+      .container .section-4 .right-font h3 {
+        position: static;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FA4A0C; }
+      .container .section-4 .right-font h2 {
+        position: static;
+        left: 0;
+        right: 0;
+        top: 7.46%;
+        bottom: 7.46%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        margin-top: 0 !important;
+        opacity: 1 !important; }
+      .container .section-4 .right-font h4 {
+        position: static;
+        left: 0;
+        right: 0;
+        top: 10.42%;
+        bottom: 10.42%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #737373; }
+  .container .section-5 {
+    position: absolute;
+    width: 1440px;
+    height: 509px;
+    left: 0;
+    top: 3739.9px;
+    background-image: url("images/Rectangle 47.png"); }
+    .container .section-5 h2 {
+      margin-top: 154px;
+      opacity: 1 !important;
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 57px; }
+    .container .section-5 h4 {
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 38px;
+      margin-top: 10px;
+      margin-bottom: 60px; }
+    .container .section-5 .row {
+      width: 331px;
+      margin: 0 auto; }
+      .container .section-5 .row .play-btn {
+        width: 142px;
+        height: 64px;
+        background: #FA4A0C;
+        box-shadow: 0 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 10px;
+        padding: 16px 0;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px; }
+      .container .section-5 .row .app-btn {
+        width: 173px;
+        height: 60px;
+        border-radius: 10px;
+        padding: 16px 0;
+        border: 1px solid silver;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px; }
+  .container footer {
+    position: absolute;
+    width: 1210px;
+    height: 133px;
+    left: 115px;
+    top: 4290.9px;
+    background: #FFFFFF; }
+    .container footer .icon {
+      position: absolute;
+      width: 246px;
+      height: 102px;
+      left: 71px;
+      top: 15.9px; }
+    .container footer .row {
+      margin: 0 auto;
+      width: 200px;
+      margin-top: 50px; }
+    .container footer p {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: right;
+      color: #5C5C5C;
+      margin-top: -24px;
+      margin-right: 50px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,455 @@
+.container{
+  position: relative;
+  max-width: 1440px;
+  height: 4463px;
+  background: #FFFFFF;
+  padding-top: 10px;
+  .navbar{
+    width: 100%;
+    position: relative;
+    .navbar-brand{
+      margin-left: 80px;
+    }
+    .navbar-nav{
+      position: absolute;
+      right: 18px;
+      .nav-item{
+        .home-link{
+          color: #FA4A0C !important;
+        }
+        .nav-link{
+          font-family: Montserrat,sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 28px;
+          color: #252B42;
+        }
+      }
+    }
+  }
+  .section-1{
+    width: 1440px;
+    height: 619px;
+    background-image: url("images/Rectangle 48.png");
+    .section{
+      width: 100%;
+      height: 100%;
+      padding-top: 73px;
+      position: relative;
+      h6{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #F7F7F7;
+      }
+      .h1{
+        width: 66%;
+        font-family: Poppins,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+        color: #FFFFFF;
+        margin: 0 auto;
+        text-align: center;
+      }
+      p{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        color: #F7F7F7;
+      }
+      .row{
+        width: 504px;
+        margin: 0 auto;
+        .play-btn{
+          width: 236px;
+          height: 68px;
+          background: #FA4A0C;
+          box-shadow: 0 10px 30px rgba(183, 50, 39, 0.2);
+          border-radius: 30px;
+          padding: 16px 0;
+          font-family: Montserrat,sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 36px;
+        }
+        .app-btn{
+          width: 236px;
+          height: 68px;
+          border-radius: 30px;
+          padding: 16px 0;
+          border: 1px solid silver;
+          font-family: Montserrat,sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+  .rec-img{
+    position: absolute;
+    width: 548px;
+    height: 640px;
+    left: 446px;
+    top: 610px;
+    .left{
+      position: absolute;
+      width: 299px;
+      height: 586px;
+      z-index: 1000;
+      img{
+        margin-top: -160px;
+        margin-left: -120px;
+        filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+
+      }
+    }
+    .right{
+      background-image: url("images/Rectangle (1).png");
+      position: absolute;
+      width: 285px;
+      height: 531px;
+      left: 242px;
+      top: 60px;
+    }
+  }
+  hr{
+    position: absolute;
+    width: 884px;
+    height: 0;
+    left: 278px;
+    top: 1378.91px;
+    background-color: #E4E4E4;
+    border: 2px solid #E4E4E4;
+  }
+  h2{
+    margin-top: 720px;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    color: #000000;
+    opacity: 0.8;
+  }
+  .section-2{
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0;
+    top: 1646px;
+    background: #FFFFFF;
+    .left-img{
+      position: absolute;
+      width: 302px;
+      height: 525px;
+      left: 245px;
+      top: 78px;
+      img{
+        margin-top: -120px;
+        margin-left: -100px;
+      }
+    }
+    .right-font{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      position: static;
+      width: 568px;
+      height: 280px;
+      left: 0;
+      top: 0;
+      margin-left: 800px;
+      padding-top: 240px;
+      h3{
+        position: static;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FA4A0C;
+      }
+      h2{
+        position: static;
+        left: 0;
+        right: 0;
+        top: 7.46%;
+        bottom: 7.46%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        margin-top: 0 !important;
+        opacity: 1 !important;
+      }
+      h4{
+        position: static;
+        left: 0;
+        right: 0;
+        top: 10.42%;
+        bottom: 10.42%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #737373;
+      }
+    }
+  }
+  .section-3{
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0;
+    top: 2302px;
+    background: #FFFFFF;
+    .left-img{
+      position: absolute;
+      width: 302px;
+      height: 525px;
+      left: 969px;
+      top: 78px;
+      img{
+        margin-top: -120px;
+        margin-left: -100px;
+      }
+    }
+    .right-font{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      position: static;
+      width: 568px;
+      height: 280px;
+      left: 0;
+      top: 0;
+      margin-left: 240px;
+      padding-top: 240px;
+      h3{
+        position: static;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FA4A0C;
+      }
+      h2{
+        position: static;
+        left: 0;
+        right: 0;
+        top: 7.46%;
+        bottom: 7.46%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        margin-top: 0 !important;
+        opacity: 1 !important;
+      }
+      h4{
+        position: static;
+        left: 0;
+        right: 0;
+        top: 10.42%;
+        bottom: 10.42%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #737373;
+      }
+    }
+  }
+  .section-4{
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0;
+    top: 2960px;
+    background: #FFFFFF;
+    .left-img{
+      position: absolute;
+      width: 302px;
+      height: 525px;
+      left: 245px;
+      top: 78px;
+      img{
+        margin-top: -120px;
+        margin-left: -100px;
+      }
+    }
+    .right-font{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      position: static;
+      width: 568px;
+      height: 280px;
+      left: 0;
+      top: 0;
+      margin-left: 800px;
+      padding-top: 240px;
+      h3{
+        position: static;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FA4A0C;
+      }
+      h2{
+        position: static;
+        left: 0;
+        right: 0;
+        top: 7.46%;
+        bottom: 7.46%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        margin-top: 0 !important;
+        opacity: 1 !important;
+      }
+      h4{
+        position: static;
+        left: 0;
+        right: 0;
+        top: 10.42%;
+        bottom: 10.42%;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #737373;
+      }
+    }
+  }
+  .section-5{
+    position: absolute;
+    width: 1440px;
+    height: 509px;
+    left: 0;
+    top: 3739.9px;
+    background-image: url("images/Rectangle 47.png");
+    h2{
+      margin-top: 154px;
+      opacity: 1 !important;
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 57px;
+    }
+    h4{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 38px;
+      margin-top: 10px;
+      margin-bottom: 60px;
+    }
+    .row{
+      width: 331px;
+      margin: 0 auto;
+      .play-btn{
+        width: 142px;
+        height: 64px;
+        background: #FA4A0C;
+        box-shadow: 0 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 10px;
+        padding: 16px 0;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+      }
+      .app-btn{
+        width: 173px;
+        height: 60px;
+        border-radius: 10px;
+        padding: 16px 0;
+        border: 1px solid silver;
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+  }
+  footer{
+    position: absolute;
+    width: 1210px;
+    height: 133px;
+    left: 115px;
+    top: 4290.9px;
+    background: #FFFFFF;
+    .icon{
+      position: absolute;
+      width: 246px;
+      height: 102px;
+      left: 71px;
+      top: 15.9px;
+    }
+    .row{
+      margin: 0 auto;
+      width: 200px;
+      margin-top: 50px;
+    }
+    p{
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: right;
+      color: #5C5C5C;
+      margin-top: -24px;
+      margin-right: 50px;
+    }
+  }
+}
